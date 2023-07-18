@@ -36,14 +36,14 @@ amount_entry.pack(pady=5)
 # Base Currency Dropdown
 base_currency_label = tk.Label(root, text="From:")
 base_currency_label.pack(pady=5)
-base_currency_combobox = ttk.Combobox(root, values=["MYR", "EUR", "GBP", "JPY", "TRY"])
+base_currency_combobox = ttk.Combobox(root, values=["MYR", "EUR", "GBP", "JPY", "TRY", "AUD", "SGD"])
 base_currency_combobox.pack(pady=5)
 base_currency_combobox.set("MYR")
 
 # Target Currency Dropdown
 target_currency_label = tk.Label(root, text="To:")
 target_currency_label.pack(pady=5)
-target_currency_combobox = ttk.Combobox(root, values=["MYR", "EUR", "GBP", "JPY", "TRY"])
+target_currency_combobox = ttk.Combobox(root, values=["MYR", "EUR", "GBP", "JPY", "TRY", "AUD", "SGD"])
 target_currency_combobox.pack(pady=5)
 target_currency_combobox.set("EUR")
 
